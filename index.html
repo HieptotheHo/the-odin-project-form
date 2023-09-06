@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div>
+        <div id="card"> <h1>Registration</h1></div>
+    </div>
+    <div id="main">
+        
+        <p>
+            "Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền  ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc".
+        </p>
+        <form action="#" method="post">
+            <h3>Let's do this!</h3>
+            <div id="container">
+                <div>
+                    <fieldset>
+                        <label for="first-name">FIRST NAME</label>
+                        <br>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="user-email">EMAIL</label>
+                        <br>
+                        <input type="email" id="user-email" name="user-email" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="user-password">PASSWORD</label>
+                        <br>
+                        <input type="password" id="user-password" name="user-password" required minlength="8">
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <label for="last-name">LAST NAME</label>
+                        <br>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="phone">PHONE NUMBER</label>
+                        <br>
+                        <input type="tel" name="phone" id="phone" required minlength="10">
+                    </fieldset>
+                    <fieldset>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <br>
+                        <input type="password" name="confirm-password" id="confirm-password" minlength="8" required>
+                    </fieldset>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <footer>
+            
+            <div>Already have an account? Log in</div>
+        </footer>
+    </div>
+</body>
+</html>

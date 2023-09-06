@@ -1,0 +1,100 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    padding: auto;
+    text-align: center;
+
+}
+#card {
+    background-color: bisque;
+    background-image: url("../download.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: max(15vw,150px);
+    background-size: cover;
+    background-position: center;
+    padding-top: 8vh;
+    font-size: 1em;
+}
+
+#main {
+    width: max(40vw,500px);
+    background-color: darkgrey;
+    padding-top: 7%;
+}
+
+p {
+    background-color: bisque;
+    padding: 2em;
+    text-align: justify;
+}
+
+form {
+    background-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow: auto;
+}
+
+fieldset {
+    border: none;
+    margin-top: 5%;
+}
+
+#container {
+    display:flex;
+    gap: 10%;
+    padding:5%;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+    border: none;
+}
+
+h3 {
+    padding-top:5%;
+    padding-left:5%;
+}
+
+footer {
+    display: block;
+    padding:6%;
+    background-color: bisque;
+}
+button {
+    background-color: aquamarine;
+    width: 20%;
+    height: 10%;
+    padding: 2%;
+    border: none;
+    margin: auto;
+}
+button:hover {
+    background-color: brown;
+}
+
+button:focus {
+    border: 2px solid black;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 1400px) {
+    h1 {
+        font-size: 20px;
+    }
+  }
